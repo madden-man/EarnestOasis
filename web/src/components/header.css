@@ -1,0 +1,17 @@
+.header {
+  height: 1.75rem;
+  background: darkblue;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.header__logo {
+  font-family: 'Recursive', sans-serif;
+  text-decoration: none;
+  color: white;
+}

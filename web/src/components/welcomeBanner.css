@@ -1,0 +1,20 @@
+.welcome-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 16rem;
+}
+
+.welcome-banner img {
+  top: 0;
+}
+
+@media (min-width: 1009px) {
+  .welcome-banner {
+    height: auto;
+  }
+  .welcome-banner img {
+    width: 100%;
+  }
+}
