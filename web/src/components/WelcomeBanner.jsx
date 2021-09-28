@@ -6,6 +6,7 @@ import './welcomeBanner.css'
 export const WelcomeBanner = ({ bgImage }) => {
   const files = fetchAssetList();
   const image = files[bgImage];
+  const initialHeight = window.innerWidth <= 1009 ? 256 : ((window.innerWidth * 256 / 1009));
 
   const [opacity, setOpacity] = useState(1);
 
@@ -22,7 +23,7 @@ export const WelcomeBanner = ({ bgImage }) => {
   }, [opacity]);
 
   return (
-    <div className="welcome-banner" style={{ opacity }}>
+    <div className="welcome-banner" style={{ opacity, maxHeight: initialHeight }}>
       <img src={image.default} alt={bgImage} />
     </div>
   );

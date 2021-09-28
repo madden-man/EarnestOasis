@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profiles {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profiles img {
+  height: 24rem;
+  width: 24rem;
+  object-fit: cover;
+  border: 3px ridge darkblue;
+}
+
+.profiles img.profiles__other {
+  border-radius: 50%;
+  height: 16rem;
+  width: 16rem;
+  margin: 0 4rem; 
+}
+
+.profiles img.profiles__me {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .profiles {
+    flex-direction: row;
+  }
+
+  .profiles img.profiles__me {
+    display: inline-block;
+  }
+
+  .profiles img.profiles__me-mobile {
+    display: none;
+  }
+}

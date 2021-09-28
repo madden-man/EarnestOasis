@@ -1,0 +1,22 @@
+.contact-form__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 32rem;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.contact-form span {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-form input {
+  margin-bottom: 0.5rem;
+  height: 1.25rem;
+  border-radius: 0.35rem;
+}

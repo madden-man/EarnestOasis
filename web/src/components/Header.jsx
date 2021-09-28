@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { withRouter } from 'react-router';
+import { Link } from 'react-router-dom';
+
+import { HeaderItem } from './HeaderItem';
 
 import './header.css';
 
 export const _Header = ({ location }) => {
-  const [opacity, setOpacity] = useState(0);
+  const [opacity, setOpacity] = useState(location.pathName === '/' ? 0 : 1);
 
   const handleScroll = () => {
     const height = window.innerWidth <= 1009 ? 256 : ((window.innerWidth * 256 / 1009));
@@ -16,14 +19,25 @@ export const _Header = ({ location }) => {
   useEffect(() => {
     if (location.pathname === '/') {
       window.addEventListener('scroll', handleScroll, { passive: true });
+      handleScroll();
+    } else {
+      setOpacity(1);
     }
     
     return () => location.pathname === '/' && window.removeEventListener('scroll', handleScroll);
   }, [opacity, location]);
 
+  if (opacity <= 0) {
+    return null;
+  }
+
   return (
     <div className="header" style={{ opacity }}>
-      <a className="header__logo" href="/">earnest oasis</a>
+      <Link className="header__logo" to="/">earnest oasis</Link>
+      <div className="header__menu">
+        <HeaderItem title="Renters" items={[{ text: 'Service Requests', url: '/service-requests'}, { text: 'Calendar', url: '/calendar'}]} />
+        <HeaderItem title="Everyone" items={[{ text: 'Queue a Song!', url: '/music-party'}, { text: 'Request a Snack!', url: '/snack-shelf'}]} />
+      </div>
     </div>
   );
 }

@@ -1,10 +1,12 @@
 import React from 'react';
-import { Switch, Route, withRouter } from 'react-router';
+import { Route, Switch } from 'react-router-dom';
+import { ExistentialSurvey } from '../views/ExistentialSurvey';
 import { Home } from '../views/Home';
+import { QueueThatSong } from '../views/QueueThatSong';
 
-export const _AppRouter = () =>
+export const AppRouter = () =>
   <Switch>
     <Route exact path="/" component={Home} />
+    <Route exact path="/music-party" component={QueueThatSong} />
+    <Route component={ExistentialSurvey} />
   </Switch>;
-
-export const AppRouter = withRouter(_AppRouter);

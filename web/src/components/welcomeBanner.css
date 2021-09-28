@@ -6,6 +6,10 @@
   height: 16rem;
 }
 
+.home .welcome-banner {
+  max-width: 100%;
+}
+
 .welcome-banner img {
   top: 0;
 }
