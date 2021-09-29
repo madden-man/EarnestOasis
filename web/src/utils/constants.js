@@ -3,13 +3,13 @@
 export const SONG_PLACEMENTS = [{
   name: '2014-forest-hills-drive.jpg',
   top: 27,
-  left: 16.5,
+  left: 15.5,
   width: 3.5,
 }, {
   name: 'ab.jpg',
-  top: 78,
-  left: 21,
-  width: 3
+  top: 81,
+  left: 21.5,
+  width: 4.5
 }, {
   name: 'a-boy-and-his-kite.jpg',
   top: 62,
@@ -17,9 +17,9 @@ export const SONG_PLACEMENTS = [{
   width: 4,
 }, {
   name: 'after-laughter.jpg',
-  top: 4,
+  top: 3,
   left: 28,
-  width: 2.5
+  width: 3.25
 }, {
   name: 'AM.jpg',
   top: 8,
@@ -27,23 +27,23 @@ export const SONG_PLACEMENTS = [{
   width: 3
 }, {
   name: 'an-awesome-wave.jpg',
-  top: 40,
-  left: 86,
-  width: 2.35
+  top: 39,
+  left: 85.25,
+  width: 3.5
 }, {
   name: 'and-the-war-came.jpg',
-  top: 58,
+  top: 60,
   left: 22,
-  width: 3  
+  width: 4  
 }, {
   name: 'a-rush-of-blood-to-the-head.jpg',
-  top: 75,
-  left: 5.5,
-  width: 3,
+  top: 74,
+  left: 5,
+  width: 4,
 }, {
   name: 'atlas-i.jpeg',
   top: 5,
-  left: 60,
+  left: 59,
   width: 4
 }, {
   name: 'beneath-the-brine.jpg',
@@ -72,14 +72,14 @@ export const SONG_PLACEMENTS = [{
   width: 3,
 }, {
   name: 'cardboard-castle.png',
-  top: 80,
+  top: 78,
   left: 52,
-  width: 4,
+  width: 4.75,
 }, {
   name: 'celeste.jpg',
   top: 12.5,
-  left: 28,
-  width: 2.75,
+  left: 27.5,
+  width: 3.5,
 }, {
   name: 'colours.jpg',
   top: 1.5,
@@ -87,9 +87,9 @@ export const SONG_PLACEMENTS = [{
   width: 3.25,
 }, {
   name: 'complaint.jpg',
-  top: 54,
+  top: 53,
   left: 33,
-  width: 3
+  width: 3.75
 }, {
   name: 'death-of-a-bachelor.jpg',
   top: 48,
@@ -97,9 +97,9 @@ export const SONG_PLACEMENTS = [{
   width: 3.5,
 }, {
   name: 'first-mind.jpg',
-  top: 87,
+  top: 85.5,
   left: 30,
-  width: 3.25,
+  width: 3.75,
 }, {
   name: 'flower-boy.jpg',
   top: 34,
@@ -107,9 +107,9 @@ export const SONG_PLACEMENTS = [{
   width: 3.5
 }, {
   name: 'folklore.png',
-  top: 34.3,
-  left: 56,
-  width: 2
+  top: 44.5,
+  left: 56.25,
+  width: 3.5
 }, {
   name: 'golden-sun.jpg',
   top: 37,
@@ -123,7 +123,7 @@ export const SONG_PLACEMENTS = [{
 }, {
   name: 'illinoise.jpg',
   top: 27,
-  left: 20,
+  left: 19,
   width: 5
 }, {
   name: 'in-between-dreams.jpg',
@@ -137,19 +137,19 @@ export const SONG_PLACEMENTS = [{
   width: 2.5
 }, {
   name: 'is-there-anybody-out-there.jpg',
-  top: 32.5,
-  left: 45,
-  width: 3
+  top: 31,
+  left: 46.5,
+  width: 3.5
 }, {
   name: 'la-la-land.png',
-  top: 34.5,
-  left: 25.5,
-  width: 2,
+  top: 32.5,
+  left: 24.25,
+  width: 3.5,
 }, {
   name: 'let\'s be still.jpg',
-  top: 37.5,
-  left: 64.5,
-  width: 2
+  top: 36.5,
+  left: 63.5,
+  width: 3.5
 }, {
   name: 'listen-to-the-river.jpg',
   top: 87,
@@ -158,7 +158,7 @@ export const SONG_PLACEMENTS = [{
 }, {
   name: 'lonesome-dreams.jpg',
   top: 31,
-  left: 36,
+  left: 36.5,
   width: 5
 }, {
   name: 'my-head-is-an-animal.jpg',
@@ -167,14 +167,14 @@ export const SONG_PLACEMENTS = [{
   width: 4
 }, {
   name: 'native.png',
-  top: 30,
-  left: 66,
-  width: 2
+  top: 18,
+  left: 63,
+  width:  5
 }, {
   name: 'night-visions.jpg',
-  top: 33,
+  top: 31,
   left: 28,
-  width: 3
+  width: 4.25
 }, {
   name: 'now-not-yet.jpg',
   top: 7,
@@ -182,14 +182,14 @@ export const SONG_PLACEMENTS = [{
   width: 3
 }, {
   name: 'o-joshua.jpeg',
-  top: 85,
-  left: 65,
-  width: 3
+  top: 20,
+  left: 70,
+  width: 4.25
 }, {
   name: 'our-endless-numbered-days.jpg',
-  top: 83,
+  top: 78,
   left: 60,
-  width: 4
+  width: 7
 }, {
   name: 'parachutes.jpg',
   top: 20,
@@ -197,9 +197,9 @@ export const SONG_PLACEMENTS = [{
   width: 3
 }, {
   name: 'pretty-odd.jpg',
-  top: 72,
-  left: 63,
-  width: 4
+  top: 62,
+  left: 68,
+  width: 5.5
 }, {
   name: 'pure-heroine.jpg',
   top: 11,
@@ -214,17 +214,17 @@ export const SONG_PLACEMENTS = [{
   name: 'rumours.jpg',
   top: 64,
   left: 32,
-  width: 3
+  width: 4.5
 }, {
   name: 'seven-sisters.jpg',
-  top: 57.5,
-  left: 60.5,
-  width: 3
+  top: 50,
+  left: 46.5,
+  width: 4.5
 }, {
   name: 'shallow-grave.png',
-  top: 18,
+  top: 8,
   left: 64,
-  width: 3
+  width: 3.75
 }, {
   name: 'sigh-no-more.jpg',
   top: 84,
@@ -232,14 +232,14 @@ export const SONG_PLACEMENTS = [{
   width: 4
 }, {
   name: 'strange-trails.jpg',
-  top: 44,
+  top: 55,
   left: 54,
-  width: 3.5
+  width: 5
 }, {
   name: 'tenboom.jpg',
   top: 70,
   left: 87,
-  width: 4
+  width: 5
 }, {
   name: 'the-brilliance-original-mixtape.jpg',
   top: 2.5,
@@ -252,7 +252,7 @@ export const SONG_PLACEMENTS = [{
   width: 10
 }, {
   name: 'the-head-and-the-heart.jpg',
-  top: 33.5,
+  top: 43.75,
   left: 52,
   width: 4
 }, {
@@ -269,26 +269,26 @@ export const SONG_PLACEMENTS = [{
   name: 'the-kingfisher.jpg',
   top: 75,
   left: 35,
-  width: 2.5
+  width: 3.5
 }, {
   name: 'the-lumineers.jpg',
   top: 66,
   left: 45,
-  width: 3
+  width: 4
 }, {
   name: 'the-outsiders.jpg',
   top: 77,
-  left: 42,
-  width: 3.25
+  left: 43,
+  width: 5
 }, {
   name: 'the-reckoning.jpg',
-  top: 34.5,
-  left: 59,
-  width: 3
+  top: 32.5,
+  left: 58,
+  width: 4.25
 }, {
   name: 'the-year-of-hibernation.jpg',
-  top: 48,
-  left: 92,
+  top: 35,
+  left: 93,
   width: 6
 }, {
   name: 'through-the-deep-dark-valley.jpg',
@@ -297,19 +297,19 @@ export const SONG_PLACEMENTS = [{
   width: 5
 }, {
   name: 'to-pimp-a-butterfly.jpg',
-  top: 50,
-  left: 24,
-  width: 3
+  top: 48,
+  left: 23,
+  width: 5
 }, {
   name: 'torches.jpg',
-  top: 52,
-  left: 17,
-  width: 3
+  top: 50,
+  left: 12,
+  width: 5
 }, {
   name: 'towrs.jpg',
-  top: 33,
-  left: 48,
-  width: 4
+  top: 26,
+  left: 50,
+  width: 7
 }, {
   name: 'trench.jpg',
   top: 5,
@@ -324,14 +324,14 @@ export const SONG_PLACEMENTS = [{
   width: 3.5
 }, {
   name: 'vide-noir.jpg',
-  top: 22,
-  left: 33.25,
-  width: 3
+  top: 21,
+  left: 32.5,
+  width: 4
 }, {
   name: 'viva-la-vida.jpg',
-  top: 41,
-  left: 20,
-  width: 3
+  top: 40,
+  left: 18,
+  width: 4.5
 }, {
   name: 'waiting-for-the-dawn.jpg',
   top: 42.5,
@@ -339,8 +339,8 @@ export const SONG_PLACEMENTS = [{
   width: 3
 }, {
   name: 'walk-the-moon.png',
-  top: 23,
-  left: 25.5,
+  top: 22,
+  left: 26,
   width: 4
 }, {
   name: 'when-we-all-fall-asleep-where-do-we-go.png',
@@ -349,27 +349,27 @@ export const SONG_PLACEMENTS = [{
   width: 3 
 }, {
   name: 'wolfgang-amadeus-phoenix.jpg',
-  top: 22,
-  left: 23.25,
-  width: 2
+  top: 21.5,
+  left: 22.5,
+  width: 2.5
 }, {
   name: 'woodland.jpg',
   top: 53,
-  left: 53,
-  width: 3
+  left: 61,
+  width: 4
 }, {
   name: 'x-infinity.jpg',
-  top: 78,
-  left: 29,
-  width: 3.25
+  top: 70.5,
+  left: 25.5,
+  width: 4.5
 }, {
   name: 'x.jpg',
-  top: 78,
+  top: 6  ,
   left: 70,
   width: 4
 }, {
   name: 'young-mountain.jpg',
-  top: 86.5,
+  top: 54.5,
   left: 91,
-  width: 4
+  width: 5
 }];
