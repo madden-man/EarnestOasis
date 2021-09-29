@@ -1,0 +1,375 @@
+// Top and left are in percent across the screen - width is in pixels to make things simple.
+// All albums assumed to be square - if an album is higher up, it will be a lower z-index.
+export const SONG_PLACEMENTS = [{
+  name: '2014-forest-hills-drive.jpg',
+  top: 27,
+  left: 16.5,
+  width: 3.5,
+}, {
+  name: 'ab.jpg',
+  top: 78,
+  left: 21,
+  width: 3
+}, {
+  name: 'a-boy-and-his-kite.jpg',
+  top: 62,
+  left: 78,
+  width: 4,
+}, {
+  name: 'after-laughter.jpg',
+  top: 4,
+  left: 28,
+  width: 2.5
+}, {
+  name: 'AM.jpg',
+  top: 8,
+  left: 34,
+  width: 3
+}, {
+  name: 'an-awesome-wave.jpg',
+  top: 40,
+  left: 86,
+  width: 2.35
+}, {
+  name: 'and-the-war-came.jpg',
+  top: 58,
+  left: 22,
+  width: 3  
+}, {
+  name: 'a-rush-of-blood-to-the-head.jpg',
+  top: 75,
+  left: 5.5,
+  width: 3,
+}, {
+  name: 'atlas-i.jpeg',
+  top: 5,
+  left: 60,
+  width: 4
+}, {
+  name: 'beneath-the-brine.jpg',
+  top: 40,
+  left: 80.5,
+  width: 2.25
+}, {
+  name: 'beneath-the-skin.jpg',
+  top: 67,
+  left: 1,
+  width: 3.5
+}, {
+  name: 'black-panther.jpg',
+  top: 14,
+  left: 34,
+  width: 3
+}, {
+  name: 'blurryface.jpg',
+  top: 60,
+  left: 39,
+  width: 3.5
+}, {
+  name: 'brother.jpg',
+  top: 1.5,
+  left: 36.5,
+  width: 3,
+}, {
+  name: 'cardboard-castle.png',
+  top: 80,
+  left: 52,
+  width: 4,
+}, {
+  name: 'celeste.jpg',
+  top: 12.5,
+  left: 28,
+  width: 2.75,
+}, {
+  name: 'colours.jpg',
+  top: 1.5,
+  left: 32,
+  width: 3.25,
+}, {
+  name: 'complaint.jpg',
+  top: 54,
+  left: 33,
+  width: 3
+}, {
+  name: 'death-of-a-bachelor.jpg',
+  top: 48,
+  left: 41,
+  width: 3.5,
+}, {
+  name: 'first-mind.jpg',
+  top: 87,
+  left: 30,
+  width: 3.25,
+}, {
+  name: 'flower-boy.jpg',
+  top: 34,
+  left: 11,
+  width: 3.5
+}, {
+  name: 'folklore.png',
+  top: 34.3,
+  left: 56,
+  width: 2
+}, {
+  name: 'golden-sun.jpg',
+  top: 37,
+  left: 83,
+  width: 2
+}, {
+  name: 'housefires-iii.jpg',
+  top: 10,
+  left: 41,
+  width: 3.5
+}, {
+  name: 'illinoise.jpg',
+  top: 27,
+  left: 20,
+  width: 5
+}, {
+  name: 'in-between-dreams.jpg',
+  top: 87,
+  left: 75,
+  width: 5
+}, {
+  name: 'in-the-aeroplane-over-the-sea.jpg',
+  top: 36,
+  left: 73  ,
+  width: 2.5
+}, {
+  name: 'is-there-anybody-out-there.jpg',
+  top: 32.5,
+  left: 45,
+  width: 3
+}, {
+  name: 'la-la-land.png',
+  top: 34.5,
+  left: 25.5,
+  width: 2,
+}, {
+  name: 'let\'s be still.jpg',
+  top: 37.5,
+  left: 64.5,
+  width: 2
+}, {
+  name: 'listen-to-the-river.jpg',
+  top: 87,
+  left: 37.5,
+  width: 3.25
+}, {
+  name: 'lonesome-dreams.jpg',
+  top: 31,
+  left: 36,
+  width: 5
+}, {
+  name: 'my-head-is-an-animal.jpg',
+  top: 36,
+  left: 68.5,
+  width: 4
+}, {
+  name: 'native.png',
+  top: 30,
+  left: 66,
+  width: 2
+}, {
+  name: 'night-visions.jpg',
+  top: 33,
+  left: 28,
+  width: 3
+}, {
+  name: 'now-not-yet.jpg',
+  top: 7,
+  left: 87,
+  width: 3
+}, {
+  name: 'o-joshua.jpeg',
+  top: 85,
+  left: 65,
+  width: 3
+}, {
+  name: 'our-endless-numbered-days.jpg',
+  top: 83,
+  left: 60,
+  width: 4
+}, {
+  name: 'parachutes.jpg',
+  top: 20,
+  left: 40,
+  width: 3
+}, {
+  name: 'pretty-odd.jpg',
+  top: 72,
+  left: 63,
+  width: 4
+}, {
+  name: 'pure-heroine.jpg',
+  top: 11,
+  left: 37.5,
+  width: 3
+}, {
+  name: 'repave.jpg',
+  top: 36,
+  left: 77,
+  width: 3
+}, {
+  name: 'rumours.jpg',
+  top: 64,
+  left: 32,
+  width: 3
+}, {
+  name: 'seven-sisters.jpg',
+  top: 57.5,
+  left: 60.5,
+  width: 3
+}, {
+  name: 'shallow-grave.png',
+  top: 18,
+  left: 64,
+  width: 3
+}, {
+  name: 'sigh-no-more.jpg',
+  top: 84,
+  left: 3,
+  width: 4
+}, {
+  name: 'strange-trails.jpg',
+  top: 44,
+  left: 54,
+  width: 3.5
+}, {
+  name: 'tenboom.jpg',
+  top: 70,
+  left: 87,
+  width: 4
+}, {
+  name: 'the-brilliance-original-mixtape.jpg',
+  top: 2.5,
+  left: 41,
+  width: 3
+}, {
+  name: 'the-great-minimum.jpg',
+  top: 66,
+  left: 10,
+  width: 10
+}, {
+  name: 'the-head-and-the-heart.jpg',
+  top: 33.5,
+  left: 52,
+  width: 4
+}, {
+  name: 'the-human-condition.jpg',
+  top: 33,
+  left: 0,
+  width: 6
+}, {
+  name: 'the-incredible-true-story.jpg',
+  top: 3,
+  left: 23,
+  width: 3,
+}, {
+  name: 'the-kingfisher.jpg',
+  top: 75,
+  left: 35,
+  width: 2.5
+}, {
+  name: 'the-lumineers.jpg',
+  top: 66,
+  left: 45,
+  width: 3
+}, {
+  name: 'the-outsiders.jpg',
+  top: 77,
+  left: 42,
+  width: 3.25
+}, {
+  name: 'the-reckoning.jpg',
+  top: 34.5,
+  left: 59,
+  width: 3
+}, {
+  name: 'the-year-of-hibernation.jpg',
+  top: 48,
+  left: 92,
+  width: 6
+}, {
+  name: 'through-the-deep-dark-valley.jpg',
+  top: 26,
+  left: 88,
+  width: 5
+}, {
+  name: 'to-pimp-a-butterfly.jpg',
+  top: 50,
+  left: 24,
+  width: 3
+}, {
+  name: 'torches.jpg',
+  top: 52,
+  left: 17,
+  width: 3
+}, {
+  name: 'towrs.jpg',
+  top: 33,
+  left: 48,
+  width: 4
+}, {
+  name: 'trench.jpg',
+  top: 5,
+  left: 76,
+  width: 3.5  
+}, {
+  name: 'true.png',
+}, {
+  name: 'vessel.jpg',
+  top: 55,
+  left: 2.5,
+  width: 3.5
+}, {
+  name: 'vide-noir.jpg',
+  top: 22,
+  left: 33.25,
+  width: 3
+}, {
+  name: 'viva-la-vida.jpg',
+  top: 41,
+  left: 20,
+  width: 3
+}, {
+  name: 'waiting-for-the-dawn.jpg',
+  top: 42.5,
+  left: 75.5,
+  width: 3
+}, {
+  name: 'walk-the-moon.png',
+  top: 23,
+  left: 25.5,
+  width: 4
+}, {
+  name: 'when-we-all-fall-asleep-where-do-we-go.png',
+  top: 43,
+  left: 32,
+  width: 3 
+}, {
+  name: 'wolfgang-amadeus-phoenix.jpg',
+  top: 22,
+  left: 23.25,
+  width: 2
+}, {
+  name: 'woodland.jpg',
+  top: 53,
+  left: 53,
+  width: 3
+}, {
+  name: 'x-infinity.jpg',
+  top: 78,
+  left: 29,
+  width: 3.25
+}, {
+  name: 'x.jpg',
+  top: 78,
+  left: 70,
+  width: 4
+}, {
+  name: 'young-mountain.jpg',
+  top: 86.5,
+  left: 91,
+  width: 4
+}];
