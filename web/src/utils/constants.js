@@ -455,4 +455,9 @@ export const SONG_PLACEMENTS = [{
   top: 20,
   left: 79,
   width: 4.5
+}, {
+  name: 'babel.jpg',
+  top: 85,
+  left: 84,
+  width: 5.5
 }];
