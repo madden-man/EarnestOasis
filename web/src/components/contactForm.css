@@ -62,3 +62,9 @@
   background-color:#4095c6;
   cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  .contact-form {
+    width: auto;
+  }
+}
