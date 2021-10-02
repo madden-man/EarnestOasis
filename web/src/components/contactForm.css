@@ -55,6 +55,7 @@
   text-align:center;
   transition: all 0.2s;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .contact-form button:hover {
