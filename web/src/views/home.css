@@ -38,6 +38,14 @@
   margin-top: 2.5rem;
 }
 
+.welcome-description {
+  width: 67%;
+  align-self: center;
+  text-align: center;
+  margin-top: 0.75rem;
+  line-height: 1.75rem;
+}
+
 @media (min-width: 768px) {
   .profiles {
     flex-direction: row;

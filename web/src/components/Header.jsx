@@ -10,8 +10,7 @@ export const _Header = ({ location }) => {
   const [opacity, setOpacity] = useState(location.pathName === '/' ? 0 : 1);
 
   const handleScroll = () => {
-    const height = window.innerWidth <= 1009 ? 256 : ((window.innerWidth * 256 / 1009));
-    const startToShow = height - 160;
+    const startToShow = 100;
   
     setOpacity((window.scrollY - startToShow + 30) / 80);
   };

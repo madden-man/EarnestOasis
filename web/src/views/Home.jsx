@@ -23,6 +23,11 @@ export const Home = () => {
         <div className="welcome-message">
           Welcome to the Earnest Oasis!
         </div>
+        <div className="welcome-description">
+          Hello and welcome to our little slice of heaven, the Earnest Oasis! We are so proud to call this pile of bricks and dry wall home,
+          and we want you to enjoy your stay -- so please! Kick your feet up, grab something from the snack shelf, and know that you are
+          safe as long as you are within these walls. And of course - let me know if you need anything below!
+        </div>
         <ContactForm />
       </Container>
     </div>
