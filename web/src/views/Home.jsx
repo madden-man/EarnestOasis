@@ -12,7 +12,7 @@ export const Home = () => {
 
   return (
     <div className="home">
-      <WelcomeBanner bgImage="house.jpg" />
+      <WelcomeBanner bgImage="house1-edited.jpeg" />
       <Container>
         <div className="profiles">
           <img src={files['me-with-house.jpg'].default} alt="me with house" className="profiles__me-mobile" />
@@ -24,7 +24,6 @@ export const Home = () => {
           Welcome to the Earnest Oasis!
         </div>
         <ContactForm />
-        <div style={{height: '200rem'}}>ey</div>
       </Container>
     </div>
   );

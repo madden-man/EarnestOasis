@@ -13,7 +13,6 @@ export const WelcomeBanner = ({ bgImage }) => {
   const handleScroll = () => {
     const height = window.innerWidth <= 1009 ? 256 : ((window.innerWidth * 256 / 1009));
     setOpacity((height - window.scrollY) / height);
-    console.log(window.scrollY)
   }
 
   useEffect(() => {
@@ -24,7 +23,7 @@ export const WelcomeBanner = ({ bgImage }) => {
 
   return (
     <div className="welcome-banner" style={{ opacity, maxHeight: initialHeight }}>
-      <img src={image.default} alt={bgImage} />
+      <img src={image.default} alt={bgImage} style={{width: window.innerWidth, height: initialHeight}} />
     </div>
   );
 };
