@@ -3,6 +3,7 @@ import { Container } from '../components/Container';
 
 import { WelcomeBanner } from '../components/WelcomeBanner';
 import { ContactForm } from '../components/ContactForm';
+import { Header } from '../components/Header';
 import { fetchAssetList } from '../utils';
 
 import './home.css'
@@ -12,6 +13,7 @@ export const Home = () => {
 
   return (
     <div className="home">
+      <Header />
       <WelcomeBanner bgImage="house1-edited.jpeg" />
       <Container>
         <div className="profiles">

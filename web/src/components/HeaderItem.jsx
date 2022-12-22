@@ -7,8 +7,8 @@ export const HeaderItem = ({ title, items }) =>
     <span className="header__item-name">{title}</span>
     <div>
       {items.map(({ text, url, isInternal = true }) =>
-        isInternal ? <Link to={url}>{text}</Link>
-        : <a href={url}>{text}</a>
+        isInternal ? <Link to={url} key={`${text}-${url}`}>{text}</Link>
+        : <a href={url} key={`${text}-${url}`}>{text}</a>
       )}
     </div>
   </div>;

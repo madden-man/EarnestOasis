@@ -22,7 +22,7 @@ export const WelcomeBanner = ({ bgImage }) => {
   }, [opacity]);
 
   return (
-    <div className="welcome-banner" style={{ opacity, maxHeight: initialHeight }}>
+    <div className="welcome-banner" style={{ opacity, maxHeight: initialHeight, marginTop: '2.25rem' }}>
       <img src={image.default} alt={bgImage} style={{width: window.innerWidth, height: initialHeight}} />
     </div>
   );
