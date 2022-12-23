@@ -6,9 +6,11 @@ import { Calendar } from '../views/Calendar';
 import { QueueThatSong } from '../views/QueueThatSong';
 
 export const AppRouter = () =>
-  <Switch>
-    <Route exact path="/" component={Home} />
-    <Route exact path="/calendar" component={Calendar} />
-    <Route exact path="/music-party" component={QueueThatSong} />
-    <Route component={ExistentialSurvey} />
-  </Switch>;
+  <div style={{marginTop: '2.25rem'}}>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/calendar" component={Calendar} />
+      <Route exact path="/music-party" component={QueueThatSong} />
+      <Route component={ExistentialSurvey} />
+    </Switch>
+  </div>;
