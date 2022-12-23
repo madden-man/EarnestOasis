@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import FullCalendar, { formatDate } from '@fullcalendar/react'
+import FullCalendar from '@fullcalendar/react' /* { formatDate } */
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listWeekPlugin from '@fullcalendar/list';
@@ -42,6 +42,8 @@ export const Calendar = () =>  {
     const handleEvents = (events) => {
         setCurrentEvents(events);
     };
+
+    console.log(currentEvents);
 
     return (
         <Container>
